@@ -1,0 +1,19 @@
+# Bobot & hasil training (terlalu besar untuk GitHub)
+best model/
+runs/
+*.pt
+*.onnx
+*.onnx.data
+*_saved_model/
+calibration_image_sample_data_*.npy
+
+# Model TFLite untuk aplikasi; buat dengan mobile_app/tools/export_tflite.py
+*.tflite
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+
+# macOS
+.DS_Store
